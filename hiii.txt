@@ -1,0 +1,22 @@
+  button {
+            height: 50px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            transition: background-color 0.3s;
+        }
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.zero {
+    grid-column: span 2;
+}
+
+button:active {
+    transform: scale(0.95);
+}
